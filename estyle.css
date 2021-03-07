@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url('768.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a, li {
+    font-family: 'roboto', sans-serif;
+    color: blanchedalmond;
+}
+
+.tex p {
+    width: 750px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+header {
+    background-color: #222;
+    display: flex;
+    align-items: flex;
+    padding: 1.2rem 2rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover {
+    color: #556cf1;
+}
+
+.tex3 {
+    padding: 1rem 2rem;
+    font-size: 29px;
+    text-align: right;
+    color: rgb(168, 186, 247);
+    font-family: monospace;
+    border: none;
+}
+
+.tex4 {
+    padding: 0rem 2rem;
+    font-size: 70px;
+    text-align: right;
+    color: rgb(216, 223, 245);
+    font-family: monospace;
+}
+
+.tex2 {
+    padding: -0rem 2rem;
+    font-size: 70px;
+    color: rgb(216, 223, 245);
+    font-family: monospace;
+}
+
+.tex1 {
+    padding: -0rem 2rem;
+    font-size: 35px;
+    color: rgb(168, 186, 247);
+    font-family: monospace;
+}
+
+.icon {
+    font-size: 200px;
+    color: rgb(9, 20, 51);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5rem;
+    text-align: center;
+    
+}
+.micr :hover{
+    color: ivory;
+}
